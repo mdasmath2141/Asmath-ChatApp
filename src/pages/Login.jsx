@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
-import logos from "../img/logos.png"
+
 
 
 const Login = () => {
@@ -24,7 +24,7 @@ const Login = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-      <span className="logo">{logos}</span>
+     
         <span className="logo">Asmath ChatApp</span>
         <span className="title">Login</span>
         <form onSubmit={handleSubmit}>
